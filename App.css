@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.app-container {
+  display: flex;
+  min-height: 100vh;
+}
+
+/* DARK BLUE SIDEBAR */
+.sidebar {
+  width: 300px;
+  min-height: 100vh;
+  background: linear-gradient(180deg, #111a38, #101b40);
+  color: white;
+  padding: 35px 25px;
+  flex-shrink: 0;
+}
+
+.logo {
+  text-align: center;
+  font-size: 23px;
+  margin-bottom: 75px;
+  color: white;
+}
+
+.menu-title {
+  text-align: center;
+  color: #aab2ce;
+  margin-bottom: 25px;
+}
+
+.menu-item {
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.menu-item.active {
+  background: #3565f5;
+  color: white;
+}
+
+/* MAIN CONTENT */
+.main-content {
+  flex: 1;
+  padding: 25px 45px;
+  background: #f5f6fa;
+}
+
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 65px;
+}
+
+.topbar input {
+  width: 65%;
+  padding: 15px;
+  border: none;
+  outline: none;
+  background: transparent;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.avatar {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background: #5555b9;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.welcome {
+  text-align: center;
+  padding: 30px 10px 60px;
+}
+
+.welcome h1 {
+  color: #30364b;
+  font-size: 30px;
+}
+
+.welcome p {
+  color: #9298a8;
+  margin-top: 15px;
+}
+
+.dashboard {
+  background: white;
+  min-height: 250px;
+  border-radius: 12px;
+  padding: 45px;
+  text-align: center;
+}
+
+.dashboard h2 {
+  color: #30364b;
+  margin-bottom: 15px;
+}
+
+.dashboard p {
+  color: #9298a8;
+}
